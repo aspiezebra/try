@@ -1,0 +1,65 @@
+<html lang="en"><head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/techjobs.css" rel="stylesheet">
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Add Job</title>
+<style type="text/css" id="tts-styles">[data-tts-block-id].tts-active {background: rgba(206, 225, 255, 0.9) !important;} [data-tts-sentence-id].tts-active {background: rgba(0, 89, 191, 0.7) !important;}</style></head>
+<body class="container body-content" data-new-gr-c-s-check-loaded="14.1039.0" data-gr-ext-installed="">
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/list">List</a></li>
+                <li><a href="/search">Search</a></li>
+                <li><a href="/add">Add Jobs</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h1>Add Job</h1>
+<form method="post" style="max-width:600px;">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input class="form-control" id="name" name="name" value="">
+        
+    </div>
+    <div class="form-group">
+        <label for="employer">Employer</label>
+        <select name="employerId">
+            <option value="1">Easterseals Midwest</option>
+            <option value="2">Millers Quik Stop</option>
+            <option value="3">Oakville Senior High School</option>
+            <option value="4">Optimistic Beginnings</option>
+            <option value="5">Centrics LLC</option>
+        </select>
+        <a href="/employers/add">Add Employers</a>
+    </div>
+
+    <div class="form-group">
+        <label for="skills">Skills</label>
+        
+            <input type="checkbox" name="skills" value="6">
+            <label>MANDT certified</label>
+        
+            <input type="checkbox" name="skills" value="7">
+            <label>CMA certified</label>
+        
+            <input type="checkbox" name="skills" value="8">
+            <label>Driving</label>
+        
+        <a href="/skills/add">Add Skills</a>
+    </div>
+
+    <input type="submit" value="Add Job">
+</form>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+
+
